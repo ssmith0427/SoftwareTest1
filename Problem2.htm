@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head title="Programming Test Part 2">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <style>
+            table { 
+                border-spacing: 1px;
+                border-collapse: collapse;
+            }
+            TD {
+                border: 2px solid #000;
+                padding: 5px;
+            }
+
+        </style>
+   </head>
+<body>
+    <h3>Programming Test Part 2</h3>
+    
+<div ng-app="validationApp" ng-controller="mainController">
+    
+    <form name="userForm" ng-submit="submitForm()" novalidate>
+  <table>
+      <tr>
+          <td>First Name:</td>
+          <td><input type="text" ng-minlength="3" ng-model="FirstName"></td>
+      </tr>
+      <tr>
+          <td>Last Name:</td>
+          <td><input type="text" ng-minlength="3" ng-model="LastName"></td>
+
+      </tr>
+      <tr>
+          <td>Date of Birth:</td>
+          <td><input type="date" class="form-control" id="DOB" ng-model="DOB" ng-change="vm.dateValid(DOB)" required>
+
+
+           <span class="error" ng-show="userForm.input.$error.date">Not a valid date!</span>
+          </td>
+
+      </tr>
+      <tr>
+          <td>GPA:</td>
+          <td><input type="number" min="0" max="5" step="0.01" ng-model="GPA" required></td>
+
+      </tr>
+  </table>
+        <button type="submit" class="btn btn-primary" ng-disabled="userForm.$invalid">Submit</button>
+        
+
+   
+        <div ng-show="Submitted">
+    <table>
+        <tr><td>First Name</td>
+            <td>{{FirstName}}</td>
+        </tr>
+        
+        <tr><td>Last Name</td>
+            <td>{{LastName}}</td>
+        </tr>
+        
+        <tr><td>Date of Birth</td>
+            <td>{{DOB | date:'MM/dd/yyyy'}}</td>
+        </tr>
+        
+        <tr><td>GPA</td>
+            <td>{{GPA}}</td>
+        </tr>
+    </table></div>
+
+
+</form>
+    </div>
+
+</body>
+    <script>
+
+        var Student = 
+            {
+                FirstName: '',
+                LastName: '',
+                DOB: '',
+                GPA: 0
+            }
+
+
+        var validationApp = angular.module('validationApp', []);
+
+
+        // create angular controller
+        validationApp.controller('mainController', function ($scope) {
+
+            // function to submit the form after all validation has occurred			
+            $scope.submitForm = function () {
+
+                // check to make sure the form is completely valid
+                if ($scope.userForm.$valid) {
+                    $scope.Submitted = true;
+                    Student.FirstName = $scope.FirstName;
+                    Student.LastName = $scope.LastName;
+                    Student.DOB = $scope.DOB;
+                    Student.GPA = $scope.GPA;
+                               
+                }
+
+            };
+
+        });
+
+        function dateValid(date) {
+            DOB = date || new Date();
+        }
+
+</script>
+</html>
+
+
