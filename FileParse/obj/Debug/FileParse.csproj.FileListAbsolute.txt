@@ -1,0 +1,10 @@
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\obj\Debug\FileParse.csprojResolveAssemblyReference.cache
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\bin\Debug\Program1.exe.config
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\bin\Debug\Program1.exe
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\bin\Debug\Program1.pdb
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\obj\Debug\Program1.exe
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\obj\Debug\Program1.pdb
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\bin\Debug\Program1.exe.manifest
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\bin\Debug\Program1.application
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\obj\Debug\Program1.exe.manifest
+c:\users\support\documents\visual studio 2012\Projects\FileParse\FileParse\obj\Debug\Program1.application

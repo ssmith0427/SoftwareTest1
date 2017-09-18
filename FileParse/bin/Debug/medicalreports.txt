@@ -1,0 +1,208 @@
+FacilityID:   12787
+FacilityName: ACME Medical Center
+Facility Location: 
+Patient:           Kistra Halos
+Gender:            Female
+DOB:               2/22/1923
+PatientID:         475101
+Procedure:         MG MAMMOGRAM SCREENING BILAT
+Number of Films:   1
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            BERGEN COUNTY CEED PROGRAM
+ExamDate:          5/22/1998 12:19:00 PM
+Radiologist:       Kalaila Mayweather
+Ordering Ph:       Haera Mald
+POS:               O
+ReportStatus:      1
+
+===================END OF RESULT===================
+                      
+FACILITYID:   12786
+FacilityName: ACME Medical Center B
+Facility Location: 
+Patient:           Gav Brishen
+Gender:            Male
+PatientID:         475100
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            Chest pain
+EXAMDate:          3/22/1918 9:19:00 PM
+Ordering Ph:       Celes Kelbier
+Radiologist:       Fias Talatheen
+DOB:               5/13/1982
+Procedure:         XR CHEST
+Number of Films:   2
+POS:               E
+ReportStatus:      1
+                      
+===================END OF RESULT===================
+                      
+FacilityID:   12785
+facilityname: ACME Medical Center C
+facility Location: 
+PatientID:         475099
+procedure:         XR CHEST
+Number of Films:   2
+Patient:           Zan Nire
+Gender:            Male
+DOB:               10/1/1986
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            Chest pain
+ExamDate:          3/22/1938 10:50:00 PM
+Radiologist:       Nikana Meday
+Ordering Ph:       Obran Opuurin
+POS:               E
+ReportStatus:      1
+                      
+===================END OF RESULT===================
+                      
+FacilityID:   12784
+FacilityName: ACME Medical Center D
+Facility Location: 
+Number of Films:   5
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            LUMBAR PAIN
+ExamDate:          5/22/1998 2:54:00 PM
+Radiologist:       Zentoo Jor
+Ordering Ph:       Tumise Cornag
+POS:               O
+ReportStatus:      1
+Patient:           Tiberius Cavi
+Gender:            Female
+PatientID:         475098
+DOB:               12/13/1926
+procedure:         XR SPINE LUMBAR SERIES
+                      
+===================END OF RESULT===================
+                      
+FacilityID:   12783
+FacilityName: ACME Medical Center E
+Facility Location: 
+Patient:           Jade Colsan
+Gender:            Female
+DOB:               1/22/1951
+Procedure:         CT ABDOMEN & PELVIS
+PatientID:         475097
+Number of Films:   192
+Laterality:        NA                  
+ExamDate:          5/22/1998 6:28:00 PM
+Radiologist:       Jevan Naa
+Contrast:          NA                  
+Reason:            Abdominal Pain
+Ordering Ph:       Drexia Aboleth
+POS:               E
+ReportStatus:      1
+                      
+===================END OF RESULT===================
+                      
+FacilityID:   12782
+FacilityName: ACME Medical Center E
+Facility Location: 
+Patient:           Bevel D'jek
+Gender:            Female
+PatientID:         475096
+DOB:               3/21/1923
+Procedure:         XR HAND SERIES
+Number of Films:   3
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            PAIN/ SWELLING
+ExamDate:          5/22/1998 9:40:00 AM
+Radiologist:       Raxle Arekson
+Ordering Ph:       Jarik Noza
+POS:               O
+ReportStatus:      1
+                      
+===================END OF RESULT===================
+                      
+FacilityID:   12781
+FacilityName: ACME Medical Center F
+Facility Location: 
+Patient:           Zidane Mott
+Gender:            Female
+DOB:               2/23/1973
+PatientID:         475095
+Procedure:         XR WRIST
+Number of Films:   1
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            PAIN/ SWELLING
+ExamDate:          5/22/1998 9:40:00 AM
+Radiologist:       Flash Forte
+Ordering Ph:       Padm Gadreel
+POS:               O
+ReportStatus:      1
+                      
+===================END OF RESULT===================
+                    
+FacilityID:   12780
+FacilityName: ACME Medical Center G
+Facility Location: 
+Patient:           Evir Frey
+Gender:            Male
+DOB:               1/22/1935
+PatientID:         475094
+Procedure:         CT ABDOMEN & PELVIS
+Number of Films:   209
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            Comparison Views
+ExamDate:          5/22/1998 11:52:00 AM
+Radiologist:       Faroer Skidder
+Ordering Ph:       Anakin Skywalker
+POS:               I
+ReportStatus:      1
+Attending Doctor:  
+Admitting Doctor:  
+Director Name:     
+                      
+===================END OF RESULT===================
+                      
+FacilityID:   12779
+FacilityName: ACME Medical Center H
+Facility Location: 
+Patient:           Numm Buphi
+Gender:            Male
+DOB:               2/3/1944
+PatientID:         475092
+Procedure:         XR FOOT
+Number of Films:   3
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            Trauma
+ExamDate:          5/22/1998 8:55:00 PM
+Radiologist:       Tover Drenall
+Ordering Ph:       Anla Boom
+POS:               E
+ReportStatus:      1
+Attending Doctor:  
+Admitting Doctor:  
+Director Name:     
+                     
+===================END OF RESULT===================
+                      
+FacilityID:   12778
+FacilityName: ACME Medical Center I
+Facility Location:  
+Patient:           Byrec Almiston
+Gender:            Male
+DOB:               12/12/1917
+PatientID:         475091
+Procedure:         XR CHEST
+Number of Films:   2
+Laterality:        NA                  
+Contrast:          NA                  
+Reason:            pneumonitis
+ExamDate:          5/22/1998 8:55:00 AM
+Radiologist:       Daylana Dio Silth
+Ordering Ph:       Ral Odan
+POS:               I
+ReportStatus:      1
+Attending Doctor:  
+Admitting Doctor:  
+Director Name:     
+                     
+===================END OF RESULT===================
